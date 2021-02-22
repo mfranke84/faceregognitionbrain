@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const FaceRegocnition = ({onButtonSubmit}) => {
+const FaceRegocnition = ({imageUrl}) => {
     return (
-        <div>
-            <image src=''></image>
+        <div className='center'>
+            <img alt='' src={imageUrl} width='500px' height='auto'></img>
         </div>
     );
 }
